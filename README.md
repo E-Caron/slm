@@ -1,8 +1,14 @@
 # slm
-slm: A package for stationary linear models
+---
+Overview of the slm package
+---
 
 The slm package enables to fit linear models on datasets considering the dependence between the observations.
 Most of the functions are based on the functions and methods of lm, with the same arguments and the same format for the outputs.
+
+---
+The main functions
+---
 
 slm function, in "slm-main.R":
 The slm function is the main function of this package. Its architecture is the same as the lm function
