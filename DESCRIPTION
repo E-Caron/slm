@@ -1,0 +1,26 @@
+Package: slm
+Type: Package
+Title: Stationary Linear Models
+Version: 1.0.0
+Author: Emmanuel Caron, Jérôme Dedecker, Bertrand Michel
+Maintainer: Emmanuel Caron <emmanuelcaron3@gmail.com>
+Description: The package provides statistical procedures for linear regression in the general context where the errors are assumed to be correlated. Different ways to estimate the asymptotic covariance matrix of the least squares estimators are available. Starting from this estimation of the covariance matrix, the confidence intervals and the usual tests on the parameters are modified. The functions of this package are very similar to those of lm: it contains methods such as summary, plot, confint and predict. The slm package is described in the paper by E. Caron, J. Dedecker and B. Michel (2019), Linear regression with stationary errors: the R package slm, arXiv preprint arXiv:1906.06583.
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Depends:
+    R (>= 2.10)
+Collate: 
+    'slm-main.R'
+    'slm.R'
+    'generative.R'
+    'auxiliary-fun.R'
+    'slm-method.R'
+    'data.R'
+Imports: 
+    ltsa,
+    methods,
+    stats,
+    datasets,
+    capushe
